@@ -1,0 +1,18 @@
+$ git start next
+$ git rebase -i HEAD~2
+$ gedit file.txt
+fixed the typo
+$ git add file.txt
+$ git rebase --continue
+$ gedit file.txt
+
+/*-----------file.txt-------------------*/
+
+Hello world
+Hello world is an excellent program.
+
+/*--------------------------------------*/
+
+$ git add file.txt
+$ git rebase --continue
+$ git verify
