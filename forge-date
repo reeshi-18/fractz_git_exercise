@@ -1,0 +1,5 @@
+$ git start next
+$ git status
+$ git log
+$ git commit --amend --date 19-11-1987
+$ git verify
