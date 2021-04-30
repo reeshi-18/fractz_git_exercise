@@ -1,0 +1,35 @@
+$ git start next
+$ git status
+$ git stash
+$ git stash list
+$ git stash show
+$ gedit bug.txt
+
+/*---------bug.txt--------------------------*/
+
+This file contains bug
+It has to be somewhere.
+I feel like I can smell it.
+How this program could work with such bug?
+
+/*-------------------------------------------*/
+
+$ git add bug.txt
+$ git commit -m "Fixed bug"
+$ git stash pop
+$ gedit bug.txt
+
+/*---------bug.txt--------------------------*/
+
+This file contains bug
+It has to be somewhere.
+I feel like I can smell it.
+How this program could work with such bug?
+This is the work I have done recently.
+I would be very sad if I loose it.
+Finally, finished it!
+
+/*-------------------------------------------*/
+
+$ git commit -am "Finally finished it"
+$ git verify
