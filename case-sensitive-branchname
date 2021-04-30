@@ -1,0 +1,6 @@
+$ git start next
+$ git status
+$ ls -lrt
+$ git mv File.txt file.txt
+$ git commit -am "Renamed filename"
+$ git verify
