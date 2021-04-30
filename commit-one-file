@@ -1,4 +1,0 @@
-$ git start next
-$ git add A.txt
-$ git commit -m "Some commit message"
-$ git verify
