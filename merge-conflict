@@ -1,0 +1,16 @@
+$ git start next
+$ git merge another-piece-of-work
+$ git status
+$ gedit equation.txt
+
+/*-------equation.txt-----------*/
+
+2 + 3 = 5
+=======
+2 + 3 = 5
+
+/*------------------------------*/
+
+$ git add equation.txt
+$ git commit -m "Solved merge conflict"
+$ git verify
