@@ -1,0 +1,5 @@
+$ git start next
+$ git status
+$ git branch
+$ git merge escaped
+$ git verify
