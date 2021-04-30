@@ -1,0 +1,16 @@
+$ git start next
+$ touch .gitignore
+$ gedit .gitignore
+
+/*------.gitignore------*/
+
+*.exe
+*.o
+*.jar
+libraries/
+
+/*----------------------*/
+
+$ git add .gitignore
+$ git commit -m "Some commit message"
+$ git verify
