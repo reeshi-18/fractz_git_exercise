@@ -1,0 +1,10 @@
+$ git start next
+$ git rebase -i
+$ git status'
+$ ls -lrt
+$ gedit file.txt
+$ git commit --amend '-S'
+$ git add .
+$ git commit --amend
+$ git rebase --continue
+$ git verify
