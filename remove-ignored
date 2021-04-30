@@ -1,0 +1,9 @@
+$ git start next
+$ git status
+$ ls -lrt
+$ cat .gitignore
+$ git rm ignored.txt
+$ git status
+$ git commit -am "removed ignored.txt"
+$ git status
+$ git verify
